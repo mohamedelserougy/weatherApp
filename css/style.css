@@ -1,0 +1,129 @@
+/*  start variable */
+    :root{
+        --word-color :  #BFC1C8;
+        --main-color : #1E202B;
+        --second-color : #262936;
+    }
+
+
+
+/*  end variable */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+
+
+/* start header */
+.site-header{
+    padding: 40px 0;
+    background-color: var(--main-color);
+}
+
+@media (max-width:992px) {
+    .navbar-nav{
+        margin-top: 1.875rem;
+        background-color: var(--second-color);
+        border-bottom: #777;
+    }
+    
+    .navbar-nav li{
+        padding: .625rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .navbar-nav .last-li{
+        border: none;
+    }
+    .navbar-nav .active{
+        border: none !important;
+    }
+}
+
+
+.navbar-nav li a{
+    padding: 5px 25px !important;
+}
+.navbar-nav .active{
+    color: #009AD8 !important;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+    
+}
+
+.navbar-nav li:hover{
+    color: #009AD8 !important;
+    border: 2px solid #009AD8;
+    border-radius: 30px;    
+}
+/* end header */
+
+
+
+
+/*  start content */
+
+.search{
+    min-height: 350px;
+    background-image:linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0,.5)), url(../images/1072817.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+    
+
+    .input-group input{
+        background-color: var(--main-color);
+    }
+    .dataShow{
+        background-color: var(--main-color);
+        margin-top: -10.625rem;
+        
+    }
+    .card{
+        border: none;
+       
+    }
+    .card-head{
+        background-color: var(--second-color);
+        color: var(--word-color);
+    }
+
+    .card-body{
+        background-color: #323544;
+        height: 300px;
+    }
+
+    .location{
+        color: var(--word-color);
+    }
+    .active .degree{
+        width: 100%;
+        font-size:  3.875rem;
+        
+    }
+    .custom{
+        color: #009AD8 ;
+    }
+    .card-body span{
+        color: var(--word-color);
+    }
+    .card-body small{
+        color: var(--word-color);
+    }
+
+    .second .card-head{
+        background-color: var(--main-color);
+    }
+    .second .card-body{
+        background-color: var(--second-color);
+    }
+/*  end content *

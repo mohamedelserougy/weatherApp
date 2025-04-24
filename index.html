@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather_app</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main style sheet  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">
+            <img
+              src="./images/logo@2x.png"
+              alt="Logo"
+              width="60"
+              height="35"
+              class="d-inline-block align-text-center"
+            />
+            Weather
+          </a>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item me-2">
+                <a
+                  class="nav-link active text-white active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="search position-relative">
+      <div class="container">
+        <div class="input-group position-relative">
+          <input
+            id="searchInput"
+            type="text"
+            class="w-100 m-5 p-3 rounded-4 text-white"
+            placeholder="Find Your location"
+          />
+          <button
+            class="btn bg-info px-4 rounded-4 position-absolute end-0 top-50 translate-middle me-3"
+          >
+            Find
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="dataShow p-5">
+      <div class="container">
+        <div id="showData" class="row row-cols-sm-1 row-cols-lg-3"></div>
+      </div>
+    </section>
+
+    <!-- <footer class="">
+      <div class="container">
+        <div class="contant d-flex justify-content-between align-items-center">
+          <div class="input-group position-relative w-75">
+            <input
+              type="text"
+              class="w-100 m-5 ms-0 p-3 rounded-4"
+              placeholder="Enter your email to subscribe..."
+            />
+            <button
+              class="btn bg-info px-4 rounded-4 position-absolute end-0 top-50 translate-middle"
+            >
+              subscribe
+            </button>
+          </div>
+
+          <div class="icons mt-3 d-flex">
+            <div
+              class="facebook rounded-circle d-flex justify-content-center align-items-center me-2"
+              style="width: 50px; height: 50px"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div
+              class="facebook rounded-circle d-flex justify-content-center align-items-center me-2"
+              style="width: 50px; height: 50px"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div
+              class="facebook rounded-circle d-flex justify-content-center align-items-center me-2"
+              style="width: 50px; height: 50px"
+            >
+              <i class="fa-brands fa-google-plus"></i>
+            </div>
+            <div
+              class="facebook rounded-circle d-flex justify-content-center align-items-center me-2"
+              style="width: 50px; height: 50px"
+            >
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+        <p class="m-0 p-3">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer> -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
